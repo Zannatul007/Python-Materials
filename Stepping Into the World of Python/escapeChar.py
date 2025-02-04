@@ -21,7 +21,7 @@ print("Number 1 \tThe Larch\nNumber 2\tThe Horse Chestnut")
 
 # print("D:\Users\Python Materials\notes.txt")
 
-#using //
+#using \\
 print('D:\\Users\Python Materials\\notes.txt')
 
 #using raw line

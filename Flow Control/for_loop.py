@@ -20,3 +20,16 @@ for i in range(1,10):
         print("{0} * {1} = {2}".format(i,j,i*j))
         if(j==9):
             print("--"*43)
+
+#For loop challenge
+
+for i in range(0,100,7):
+    if(i>0 and i%11 ==0):
+        print("The wanted number is {}".format(i))
+        break
+
+for i in range(0,20):
+    if(i>0 and (i%3==0 or i%5==0)):
+        continue
+
+    print("The numbers are {}".format(i))

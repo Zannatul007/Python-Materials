@@ -21,3 +21,6 @@ for i in range(1,12):
     print("No. {0}'s squared is {1:<3} and cube is {2:<4} ".format(i,i**2,i**3))#now left aligned 
 for i in range(1,12):
     print("No. {0}'s squared is {1:^3} and cube is {2:^4} ".format(i,i**2,i**3))#now centre aligned
+
+
+print("Pi is {}".format(22/7))
