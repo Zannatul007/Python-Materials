@@ -8,3 +8,12 @@ b = int_number_list[1]
 c = int_number_list[2]
 
 print(a+b-c)
+
+
+#unpacking list
+
+a,b,c=int_number_list
+print(a,b,c)
+
+print(a+b-c)
+
