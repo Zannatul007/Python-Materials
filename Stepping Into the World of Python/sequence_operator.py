@@ -1,5 +1,5 @@
 str1 = "zane "
-str2 = " is made about"
+str2 = " is mad about"
 str3 = " coffee mugs"
 
 print(str1+str2+str3)

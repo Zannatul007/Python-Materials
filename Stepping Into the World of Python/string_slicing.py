@@ -16,7 +16,7 @@ print(str2.split(" "))
 
 ##F-string 
 ##A placeholder {} can contain variables, operations, functions, and modifiers to format the value
-age = 26
+age = 25
 internship = "3 months"
 a,b = 3,6.5667
 mul = a*b
