@@ -1,7 +1,16 @@
 import random
 
 def get_integer(prompt):
-   
+
+    """    Get an integer from the Standard Input (stdin).
+
+    The function will continue looping, and prompting the user ,
+    untill a valid `int` is entered \n
+    `Args`: prompt : The string that the user will see,when they're prompted to enter the value.\n
+    `Returns`:
+        The integer that the user enters
+    """
+
     while True:
         input1 = input(prompt)
         if(input1.isnumeric()):
