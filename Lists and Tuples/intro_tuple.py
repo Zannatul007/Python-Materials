@@ -4,16 +4,16 @@ fruits = ('mango','apple','banana')
 # print(type(fruits))
 
 single_fruit = ('apple')
-# print(type(single_fruit))
+print(type(single_fruit))
 
 single_fruit_tuple = ('apple',)
-# print(type(single_fruit_tuple))
+print(type(single_fruit_tuple))
 
 str_tuple = ("a","b","c")
 bool_tuple = (True,False,True)
 int_tuple = (1,2,3,4,5)
 mixed_tuple = ("a",1,0,True)
-# print(str_tuple,mixed_tuple,int_tuple,bool_tuple)
+print(str_tuple,mixed_tuple,int_tuple,bool_tuple)
 
 
 # #Tuple constructor 
@@ -59,3 +59,4 @@ albums = [('Atomic Habits_0','Alice Cooper', 1967),
 for album in albums:
     name,artist,year = album
     print("Name:{}, Artist :{}, Year: {} ".format(name,artist,year))
+
