@@ -15,11 +15,12 @@ while True:
         print(f"You have chosen {recipe_name}")
         ingredients = recipes[recipe_name]
         print(f"The ingredients list is {ingredients}")
-        for food_item in ingredients:
-            if food_item in pantry:
-                print(f"\t{food_item} OK : Quantity {pantry[food_item]} ")
+        for food_item,required_quantity in ingredients.items():
+            quantity_in_pantry = pantry.get(food_item,"0")
+            if  required_quantity <= quantity_in_pantry:
+                print(f"\t{food_item} OK ")
             else:
-                print(f"Ingredient {food_item} is missing1")
+                print(f"Ingredient `{food_item}` {required_quantity-quantity_in_pantry} is needed")
 
 
     for key,values in selected_meal.items():
