@@ -17,7 +17,7 @@ while True:
         print(f"The ingredients list is {ingredients}")
         for food_item in ingredients:
             if food_item in pantry:
-                print(f"\t{food_item} OK")
+                print(f"\t{food_item} OK : Quantity {pantry[food_item]} ")
             else:
                 print(f"Ingredient {food_item} is missing1")
 
