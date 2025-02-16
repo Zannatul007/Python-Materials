@@ -8,10 +8,10 @@ def alphabet_counter(string1:str):
             alphabet_counter[i] = alphabet_counter.setdefault(i,0)+1
     return alphabet_counter
 
-# input_str = input("Take an Input String \n")
-# counter = alphabet_counter(input_str)
-# for item,count in counter.items():
-#     print(f"{item} : {count}")
+input_str = input("Take an Input String \n")
+counter = alphabet_counter(input_str)
+for item,count in counter.items():
+    print(f"{item} : {count}")
 
 #Word Frequency Counter 
 
@@ -23,11 +23,11 @@ def word_counter(sentence1:str):
     return word_counter
 
 
-# input_sentence1 = input("Please write a sentence : \n")
-# counter_word = word_counter(input_sentence1) 
+input_sentence1 = input("Please write a sentence : \n")
+counter_word = word_counter(input_sentence1) 
 
-# for key,value in counter_word.items():
-#     print(f"[{key}]:{value}")
+for key,value in counter_word.items():
+    print(f"[{key}]:{value}")
     
 
 
@@ -54,11 +54,11 @@ def anagram_checker(string1:str,string2:str):
 
     return flag
 
-# input_str1,input_str2 = input("\n"),input("\n")
-# if(anagram_checker(input_str1,input_str2)):
-#     print("Yes both strings are anagram")
-# else:
-#     print("No they are not anagram")
+input_str1,input_str2 = input("\n"),input("\n")
+if(anagram_checker(input_str1,input_str2)):
+    print("Yes both strings are anagram")
+else:
+    print("No they are not anagram")
 
 
 #Most Frequented Alphabet 
@@ -72,5 +72,5 @@ def most_frequented_alphabet(string1:str):
     print(alphabet_counter_sorted)
     
 
-input_s = input("Check the most frequented alphabet\n")
-most_frequented_alphabet(input_s)
+# input_s = input("Check the most frequented alphabet\n")
+# most_frequented_alphabet(input_s)
