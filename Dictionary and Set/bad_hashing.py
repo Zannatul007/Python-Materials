@@ -11,4 +11,6 @@ def my_hash(s:str)-> int:
 for key,value in fruits:
     new_hash = my_hash(key)
     print(key,new_hash)
+    print("-"*90)
+    print(key , hash(key))
 
