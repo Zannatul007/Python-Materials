@@ -1,6 +1,6 @@
 from contents import recipes,pantry
 
-
+print(recipes)
 choice = "-"
 selected_meal = {}
 shopping_list = {}
