@@ -14,13 +14,14 @@ def user_remove_prefix(s: str,p:str)->str:
     else:
         return s[:]
     
-def user_remove_suffix(s: str,s1:str)->str:
-    if s1 and s.endswith(s1):
-        return s[:-len(s1)]
+def user_remove_suffix(string: str, s1: str) -> str:
+    if (s1 and string.endswith(s1)):  
+        print(len(s1)) 
+        return string[:-(len(s1))]  
     else:
-        return s[:]
-    
+        print(len(s1))  
+ 
 remove_twas = user_remove_prefix(line,"'Twas")
 print(remove_twas)
-remove_toves = user_remove_suffix(line,"toves")
+remove_toves = user_remove_suffix(line,"es")
 print(remove_toves)
