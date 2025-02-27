@@ -1,0 +1,93 @@
+{'Country': 'United States', 'Gold': '39', 'Silver': '41', 'Bronze': '33', 'Total': '113', 'Rank': '1'}
+{'Country': 'China', 'Gold': '38', 'Silver': '32', 'Bronze': '18', 'Total': '88', 'Rank': '2'}
+{'Country': 'Japan', 'Gold': '27', 'Silver': '14', 'Bronze': '17', 'Total': '58', 'Rank': '3'}
+{'Country': 'Great Britain', 'Gold': '22', 'Silver': '21', 'Bronze': '22', 'Total': '65', 'Rank': '4'}
+{'Country': 'ROC', 'Gold': '20', 'Silver': '28', 'Bronze': '23', 'Total': '71', 'Rank': '5'}
+{'Country': 'Australia', 'Gold': '17', 'Silver': '7', 'Bronze': '22', 'Total': '46', 'Rank': '6'}
+{'Country': 'Netherlands', 'Gold': '10', 'Silver': '12', 'Bronze': '14', 'Total': '36', 'Rank': '7'}
+{'Country': 'France', 'Gold': '10', 'Silver': '12', 'Bronze': '11', 'Total': '33', 'Rank': '8'}
+{'Country': 'Germany', 'Gold': '10', 'Silver': '11', 'Bronze': '16', 'Total': '37', 'Rank': '9'}
+{'Country': 'Italy', 'Gold': '10', 'Silver': '10', 'Bronze': '20', 'Total': '40', 'Rank': '10'}
+{'Country': 'Canada', 'Gold': '7', 'Silver': '6', 'Bronze': '11', 'Total': '24', 'Rank': '11'}
+{'Country': 'Brazil', 'Gold': '7', 'Silver': '6', 'Bronze': '8', 'Total': '21', 'Rank': '12'}
+{'Country': 'New Zealand', 'Gold': '7', 'Silver': '6', 'Bronze': '7', 'Total': '20', 'Rank': '13'}
+{'Country': 'Cuba', 'Gold': '7', 'Silver': '3', 'Bronze': '5', 'Total': '15', 'Rank': '14'}
+{'Country': 'Hungary', 'Gold': '6', 'Silver': '7', 'Bronze': '7', 'Total': '20', 'Rank': '15'}
+{'Country': 'South Korea', 'Gold': '6', 'Silver': '4', 'Bronze': '10', 'Total': '20', 'Rank': '16'}
+{'Country': 'Poland', 'Gold': '4', 'Silver': '5', 'Bronze': '5', 'Total': '14', 'Rank': '17'}
+{'Country': 'Czech Republic', 'Gold': '4', 'Silver': '4', 'Bronze': '3', 'Total': '11', 'Rank': '18'}
+{'Country': 'Kenya', 'Gold': '4', 'Silver': '4', 'Bronze': '2', 'Total': '10', 'Rank': '19'}
+{'Country': 'Norway', 'Gold': '4', 'Silver': '2', 'Bronze': '2', 'Total': '8', 'Rank': '20'}
+{'Country': 'Jamaica', 'Gold': '4', 'Silver': '1', 'Bronze': '4', 'Total': '9', 'Rank': '21'}
+{'Country': 'Spain', 'Gold': '3', 'Silver': '8', 'Bronze': '6', 'Total': '17', 'Rank': '22'}
+{'Country': 'Sweden', 'Gold': '3', 'Silver': '6', 'Bronze': '0', 'Total': '9', 'Rank': '23'}
+{'Country': 'Switzerland', 'Gold': '3', 'Silver': '4', 'Bronze': '6', 'Total': '13', 'Rank': '24'}
+{'Country': 'Denmark', 'Gold': '3', 'Silver': '4', 'Bronze': '4', 'Total': '11', 'Rank': '25'}
+{'Country': 'Croatia', 'Gold': '3', 'Silver': '3', 'Bronze': '2', 'Total': '8', 'Rank': '26'}
+{'Country': 'Iran', 'Gold': '3', 'Silver': '2', 'Bronze': '2', 'Total': '7', 'Rank': '27'}
+{'Country': 'Serbia', 'Gold': '3', 'Silver': '1', 'Bronze': '5', 'Total': '9', 'Rank': '28'}
+{'Country': 'Belgium', 'Gold': '3', 'Silver': '1', 'Bronze': '3', 'Total': '7', 'Rank': '29'}
+{'Country': 'Bulgaria', 'Gold': '3', 'Silver': '1', 'Bronze': '2', 'Total': '6', 'Rank': '30'}
+{'Country': 'Slovenia', 'Gold': '3', 'Silver': '1', 'Bronze': '1', 'Total': '5', 'Rank': '31'}
+{'Country': 'Uzbekistan', 'Gold': '3', 'Silver': '0', 'Bronze': '2', 'Total': '5', 'Rank': '32'}
+{'Country': 'Georgia', 'Gold': '2', 'Silver': '5', 'Bronze': '1', 'Total': '8', 'Rank': '33'}
+{'Country': 'Chinese Taipei', 'Gold': '2', 'Silver': '4', 'Bronze': '6', 'Total': '12', 'Rank': '34'}
+{'Country': 'Turkey', 'Gold': '2', 'Silver': '2', 'Bronze': '9', 'Total': '13', 'Rank': '35'}
+{'Country': 'Greece', 'Gold': '2', 'Silver': '1', 'Bronze': '1', 'Total': '4', 'Rank': '36'}
+{'Country': 'Uganda', 'Gold': '2', 'Silver': '1', 'Bronze': '1', 'Total': '4', 'Rank': '36'}
+{'Country': 'Ecuador', 'Gold': '2', 'Silver': '1', 'Bronze': '0', 'Total': '3', 'Rank': '38'}
+{'Country': 'Ireland', 'Gold': '2', 'Silver': '0', 'Bronze': '2', 'Total': '4', 'Rank': '39'}
+{'Country': 'Israel', 'Gold': '2', 'Silver': '0', 'Bronze': '2', 'Total': '4', 'Rank': '39'}
+{'Country': 'Qatar', 'Gold': '2', 'Silver': '0', 'Bronze': '1', 'Total': '3', 'Rank': '41'}
+{'Country': 'Bahamas', 'Gold': '2', 'Silver': '0', 'Bronze': '0', 'Total': '2', 'Rank': '42'}
+{'Country': 'Kosovo', 'Gold': '2', 'Silver': '0', 'Bronze': '0', 'Total': '2', 'Rank': '42'}
+{'Country': 'Ukraine', 'Gold': '1', 'Silver': '6', 'Bronze': '12', 'Total': '19', 'Rank': '44'}
+{'Country': 'Belarus', 'Gold': '1', 'Silver': '3', 'Bronze': '3', 'Total': '7', 'Rank': '45'}
+{'Country': 'Romania', 'Gold': '1', 'Silver': '3', 'Bronze': '0', 'Total': '4', 'Rank': '46'}
+{'Country': 'Venezuela', 'Gold': '1', 'Silver': '3', 'Bronze': '0', 'Total': '4', 'Rank': '46'}
+{'Country': 'India', 'Gold': '1', 'Silver': '2', 'Bronze': '4', 'Total': '7', 'Rank': '48'}
+{'Country': 'Hong Kong', 'Gold': '1', 'Silver': '2', 'Bronze': '3', 'Total': '6', 'Rank': '49'}
+{'Country': 'Philippines', 'Gold': '1', 'Silver': '2', 'Bronze': '1', 'Total': '4', 'Rank': '50'}
+{'Country': 'Slovakia', 'Gold': '1', 'Silver': '2', 'Bronze': '1', 'Total': '4', 'Rank': '50'}
+{'Country': 'South Africa', 'Gold': '1', 'Silver': '2', 'Bronze': '0', 'Total': '3', 'Rank': '52'}
+{'Country': 'Austria', 'Gold': '1', 'Silver': '1', 'Bronze': '5', 'Total': '7', 'Rank': '53'}
+{'Country': 'Egypt', 'Gold': '1', 'Silver': '1', 'Bronze': '4', 'Total': '6', 'Rank': '54'}
+{'Country': 'Indonesia', 'Gold': '1', 'Silver': '1', 'Bronze': '3', 'Total': '5', 'Rank': '55'}
+{'Country': 'Ethiopia', 'Gold': '1', 'Silver': '1', 'Bronze': '2', 'Total': '4', 'Rank': '56'}
+{'Country': 'Portugal', 'Gold': '1', 'Silver': '1', 'Bronze': '2', 'Total': '4', 'Rank': '56'}
+{'Country': 'Tunisia', 'Gold': '1', 'Silver': '1', 'Bronze': '0', 'Total': '2', 'Rank': '58'}
+{'Country': 'Estonia', 'Gold': '1', 'Silver': '0', 'Bronze': '1', 'Total': '2', 'Rank': '59'}
+{'Country': 'Fiji', 'Gold': '1', 'Silver': '0', 'Bronze': '1', 'Total': '2', 'Rank': '59'}
+{'Country': 'Latvia', 'Gold': '1', 'Silver': '0', 'Bronze': '1', 'Total': '2', 'Rank': '59'}
+{'Country': 'Thailand', 'Gold': '1', 'Silver': '0', 'Bronze': '1', 'Total': '2', 'Rank': '59'}
+{'Country': 'Bermuda', 'Gold': '1', 'Silver': '0', 'Bronze': '0', 'Total': '1', 'Rank': '63'}
+{'Country': 'Morocco', 'Gold': '1', 'Silver': '0', 'Bronze': '0', 'Total': '1', 'Rank': '63'}
+{'Country': 'Puerto Rico', 'Gold': '1', 'Silver': '0', 'Bronze': '0', 'Total': '1', 'Rank': '63'}
+{'Country': 'Colombia', 'Gold': '0', 'Silver': '4', 'Bronze': '1', 'Total': '5', 'Rank': '66'}
+{'Country': 'Azerbaijan', 'Gold': '0', 'Silver': '3', 'Bronze': '4', 'Total': '7', 'Rank': '67'}
+{'Country': 'Dominican Republic', 'Gold': '0', 'Silver': '3', 'Bronze': '2', 'Total': '5', 'Rank': '68'}
+{'Country': 'Armenia', 'Gold': '0', 'Silver': '2', 'Bronze': '2', 'Total': '4', 'Rank': '69'}
+{'Country': 'Kyrgyzstan', 'Gold': '0', 'Silver': '2', 'Bronze': '1', 'Total': '3', 'Rank': '70'}
+{'Country': 'Mongolia', 'Gold': '0', 'Silver': '1', 'Bronze': '3', 'Total': '4', 'Rank': '71'}
+{'Country': 'Argentina', 'Gold': '0', 'Silver': '1', 'Bronze': '2', 'Total': '3', 'Rank': '72'}
+{'Country': 'San Marino', 'Gold': '0', 'Silver': '1', 'Bronze': '2', 'Total': '3', 'Rank': '72'}
+{'Country': 'Jordan', 'Gold': '0', 'Silver': '1', 'Bronze': '1', 'Total': '2', 'Rank': '74'}
+{'Country': 'Malaysia', 'Gold': '0', 'Silver': '1', 'Bronze': '1', 'Total': '2', 'Rank': '74'}
+{'Country': 'Nigeria', 'Gold': '0', 'Silver': '1', 'Bronze': '1', 'Total': '2', 'Rank': '74'}
+{'Country': 'Bahrain', 'Gold': '0', 'Silver': '1', 'Bronze': '0', 'Total': '1', 'Rank': '77'}
+{'Country': 'Saudi Arabia', 'Gold': '0', 'Silver': '1', 'Bronze': '0', 'Total': '1', 'Rank': '77'}
+{'Country': 'Lithuania', 'Gold': '0', 'Silver': '1', 'Bronze': '0', 'Total': '1', 'Rank': '77'}
+{'Country': 'North Macedonia', 'Gold': '0', 'Silver': '1', 'Bronze': '0', 'Total': '1', 'Rank': '77'}
+{'Country': 'Namibia', 'Gold': '0', 'Silver': '1', 'Bronze': '0', 'Total': '1', 'Rank': '77'}
+{'Country': 'Turkmenistan', 'Gold': '0', 'Silver': '1', 'Bronze': '0', 'Total': '1', 'Rank': '77'}
+{'Country': 'Kazakhstan', 'Gold': '0', 'Silver': '0', 'Bronze': '8', 'Total': '8', 'Rank': '83'}
+{'Country': 'Mexico', 'Gold': '0', 'Silver': '0', 'Bronze': '4', 'Total': '4', 'Rank': '84'}
+{'Country': 'Finland', 'Gold': '0', 'Silver': '0', 'Bronze': '2', 'Total': '2', 'Rank': '85'}
+{'Country': 'Botswana', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': 'Burkina Faso', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': "Côte d'Ivoire", 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': 'Ghana', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': 'Grenada', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': 'Kuwait', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': 'Moldova', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
+{'Country': 'Syria', 'Gold': '0', 'Silver': '0', 'Bronze': '1', 'Total': '1', 'Rank': '86'}
