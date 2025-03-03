@@ -1,5 +1,6 @@
 #attributes define the properties of objects.
 # They can be classified into class attributes and instance attributes based on how they are stored and accessed.
+
 """ Class Attributes
 Defined inside the class but outside any method.
 Shared by all instances of the class.
