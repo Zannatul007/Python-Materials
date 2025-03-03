@@ -35,3 +35,15 @@ Modifying an instance attribute only affects that specific instance."""
 kenwood.price = 150
 print(kenwood.price)  # Output: 150 (only changed for kenwood)
 print(hamilton.price)  # Output: 15 (remains unchanged)
+
+""" What Happens If an Instance Modifies a Class Attribute?
+If an instance modifies a class attribute, it creates a new instance attribute with the same name,
+ rather than modifying the original class attribute."""
+
+kenwood.power_source = "Solar" # Creates a new instance attribute
+print(kenwood.power_source)
+print(hamilton.power_source)
+
+"""🚀 When to Use Which?
+Use class attributes when a property should be shared by all instances (e.g., power_source).
+Use instance attributes when a property should be unique to each instance (e.g., price and make)."""
