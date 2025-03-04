@@ -13,7 +13,7 @@ another_splitted_text_2 =""" Consecutive \
  three quotation also \
  helps to split \
  text automatically \
- by using only keyboard new lines but by putting \ it doesn't break
+ by using only keyboard new lines but by putting `\` it doesn't break
 """ 
 print(another_splitted_text_2)
 

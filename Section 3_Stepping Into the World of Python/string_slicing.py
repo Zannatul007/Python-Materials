@@ -3,7 +3,7 @@ string_1 = "we win"
 for i in string_1:
     print(i)
 
-str2 = "   Zannatul Fardaush"
+str2 = "Zannatul Fardaush"
 print(str2[:])
 print(str2[0:3])
 
@@ -11,8 +11,8 @@ print(str2[0:3])
 print(str2.upper())
 print(str2.lower())
 print(str2.replace("a","aa"))
-print(str2.strip())
-print(str2.split(" "))
+print("Stripped " + str2.strip())
+print( str2.split(" "))
 
 ##F-string 
 ##A placeholder {} can contain variables, operations, functions, and modifiers to format the value

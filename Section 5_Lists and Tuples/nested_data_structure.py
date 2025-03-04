@@ -39,10 +39,10 @@ albums = [
 ]
 
 for name,artist,year,songs in albums:
-    break
-    # print(name,artist,year,songs)
-    # print("Name: {}\t Artist:{}\t Year: {}\t Songs: {}\t ".format(name,artist,year,songs))
-    # print('\n')
+    # break
+    print(name,artist,year,songs)
+    print("Name: {}\t Artist:{}\t Year: {}\t Songs: {}\t ".format(name,artist,year,songs))
+    print('\n')
 
 ##Nesting indexing
 
