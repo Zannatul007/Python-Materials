@@ -25,8 +25,8 @@ class Player:
             self.__level = levels
         else:
             print("Level can't be negative")
-
-    lives = property(_get__lives, _set__lives)
+    lives = property(_get__lives,_set__lives)
+    # lives = property(_get__lives, _set__lives)#name of the property and attribute never be the same(maximum recursion depth exceeded in comparison)
     level = property(_get__levels, _set__levels)
 
     def __str__(self):
