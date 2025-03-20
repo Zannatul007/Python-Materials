@@ -40,10 +40,9 @@ class BankAccount(object):
     def transfer(self, amount, account):
         print("**********\n \nTransfer is beginning ✈️")
         try:
+            # self.viable_transaction(amount)
             self.withdraw(amount)
             account.deposite(amount)
             print("\nTransfer complete! ✅\n\n**********")
         except BankTransferException as error:
-            print("Transfer is interrupted {}".format(error))
-
-    
+            print("Transfer is interrupted {} ❌".format(error))
