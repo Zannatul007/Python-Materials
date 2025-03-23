@@ -5,19 +5,20 @@ class User(object):
     def __init__(self):
         self.user_collection = {}
 
-    def user_registration(self, uname: str, upassword: str, role: str):
-        salt = bcrypt.gensalt()
-        hashed = bcrypt.hashpw(upassword, salt)
+    def user_registration(self, uname: str, upassword: str, role: str, contact: str):
+        # salt = bcrypt.gensalt()
+        # hashed = bcrypt.hashpw(upassword, salt)
         self.user_collection[uname] = {
             "User Name": uname,
-            "Password": hashed,
+            "Password": upassword,
+            "Contact": contact,
             "Role": role,
         }
 
     def user_login(self, uname: str, upassword: str):
-        if uname in self.user_collection["User Name"]:
-            password = bcrypt.hashpw(upassword, bcrypt.gensalt())
-            if self.user_collection[uname]["Password"] == password:
+        if uname in self.user_collection[uname]:
+            # password = bcrypt.hashpw(upassword, bcrypt.gensalt())
+            if self.user_collection[uname]["Password"] == upassword:
                 print("{} logged in successfully".format(self.uname))
             else:
                 print("Incorrect Password")
@@ -45,6 +46,7 @@ class Admin:
             self.member_collection[mid].update({criteria: value})
 
     def delete_member(self, mid: str):
+        print()
         del self.member_collection[mid]
 
     # Book Management By Admin
@@ -60,8 +62,10 @@ class Admin:
     def update_book(self, ISBN: str, update_list: dict):
         for criteria, value in update_list.items():
             self.books_collection[ISBN].update({criteria: value})
+        print("{} is updated".format(self.books_collection[ISBN]))
 
     def delete_book(self, ISBN: str):
+        print("{} is deleted".format(self.books_collection[ISBN]["Book Title"]))
         del self.books_collection[ISBN]
 
     def search_book(self, search_criteria):
@@ -75,6 +79,7 @@ class Admin:
         print("The details of the book is {}".format(self.books_collection[pos]))
 
     def book_storage(self):
+        print("The all information of books ")
         for key, book_info in self.books_collection.items():
             print("{} {}".format(key, book_info))
 
