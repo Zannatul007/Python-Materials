@@ -1,3 +1,30 @@
+import bcrypt
+
+
+class User(object):
+    def __init__(self):
+        self.user_collection = {}
+
+    def user_registration(self, uname: str, upassword: str, role: str):
+        salt = bcrypt.gensalt()
+        hashed = bcrypt.hashpw(upassword, salt)
+        self.user_collection[uname] = {
+            "User Name": uname,
+            "Password": hashed,
+            "Role": role,
+        }
+
+    def user_login(self, uname: str, upassword: str):
+        if uname in self.user_collection["User Name"]:
+            password = bcrypt.hashpw(upassword, bcrypt.gensalt())
+            if self.user_collection[uname]["Password"] == password:
+                print("{} logged in successfully".format(self.uname))
+            else:
+                print("Incorrect Password")
+        else:
+            print("User not found !!!")
+
+
 class Admin:
     def __init__(self, name):
         self.name = name
