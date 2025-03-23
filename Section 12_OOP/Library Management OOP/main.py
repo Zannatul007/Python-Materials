@@ -10,4 +10,7 @@ admin1.update_book(update_list, 1)
 # admin1.book_storage()
 admin1.delete_book(1)
 admin1.book_storage()
-admin1.search_book("2")
+admin1.search_book(2)
+member = admin1.add_member("Kane", "zannatul.fardaush@gmail.com", 123)
+print(member.member_name)
+
