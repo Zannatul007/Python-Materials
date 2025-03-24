@@ -75,7 +75,8 @@ class Admin:
                 if value == search_criteria:
                     pos = isbn
                     break
-            break
+            if pos:
+                break
         print("The details of the book is {}".format(self.books_collection[pos]))
 
     def book_storage(self):
